@@ -1,0 +1,192 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: black;
+    padding: 10px 0;
+}
+
+.center_container{
+    width: 60%;
+    margin: auto;
+}
+
+
+header > .center_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+#links{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    color: white;
+}
+
+#links > a{
+    vertical-align: middle;
+}
+
+.nav_item{
+    color: rgb(209, 209, 209);
+    text-decoration: none;
+}
+.active {
+    color: white;
+    font-weight: bold;
+}
+
+#sign_out{
+    background-color: #17A2B8;
+    color: white;
+    padding: 3px 15px;
+    font-size: 1.2rem;
+    border: 3px solid black;
+}
+
+main > .center_container{
+    display: flex;
+    justify-content: space-between;
+}
+main{
+    margin: 30px;
+}
+#left_side{
+    width: 60%;
+}
+
+#right_side{
+    width: 40%;
+    margin-left: 30px;
+}
+
+/* Set conatiner width and center it horizontaly */
+.container{
+    width: 100%;
+    margin: auto;
+}
+
+/* Give the header class a background color and a curve on both it's top corners */
+.header{
+    background-color: #17A2B8;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+}
+
+/* Set profile Picture Size */
+/* Position the picture where it needs to be */
+img[alt = "Profile Picture"]{
+    width: 100px;
+    position: relative;
+    top: 50px;
+    left: 30px;
+    border: 3px solid #CCCCCC;
+    border-radius: 100%;
+}
+
+/* Give the main class a border and a container */
+.main{
+    border: 3px solid #CCCCCC;
+    border-top: none;
+    padding: 50px 0px 30px 30px;
+}
+
+.main > h2{
+    font-size: 1.9rem;
+}
+
+/* Give the map-marker image a width of 10px*/
+img[alt = "map-marker"]{
+    width: 10px;
+}
+
+/* Give the gear image a width of 15px*/
+img[alt = "gear"]{
+    width: 15px;
+}
+
+/* Give the direct div child of the class main a margin-top of 10px */
+.main > div{
+    margin-top: 10px;
+}
+
+/* Make the font size of the span under the main class inside the div a tiny bit bigger */
+.main > div > span{
+    font-size: 1.1rem;
+}
+
+/* Make the background color of the anchor tag under the main class inside the div match the color of the gear image */
+.main > div > a{
+    color: #2B78E4;
+}
+
+.container_2{
+    width:100%
+}
+
+.header_2{
+    background-color: #333333;
+    color: white;
+    padding: 5px 20px;
+}
+
+.main_2{
+    border: 3px solid #CCCCCC;
+    border-top: none;
+    padding: 10px 20px;
+}
+
+.item{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+img[alt = "profile picture"]{
+    width: 40px;
+    border-radius: 100%;
+    margin-right: 5px;
+}
+
+img[alt = "icon"]{
+    width: 20px;
+    padding: 0 5px;
+}
+
+.number{
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    border-radius: 50%;
+    color: #fff;
+    text-align: center;
+    background-color: #CCCCCC;
+}
+
+.header_2 > h2 {
+    display: inline-block;
+}
+
+.mt-30{
+    margin-top: 30px;
+}
+
